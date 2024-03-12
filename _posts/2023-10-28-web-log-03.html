@@ -1,0 +1,83 @@
+---
+layout: post
+title: Web Log 03
+date: 2023-10-28 16:35:02.000000000 +02:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Dev Log
+- Web Log
+tags: []
+meta:
+  _discord_webhook_published: 'yes'
+  _thumbnail_id: '148'
+  _edit_last: '1'
+author:
+  login: mobilex
+  email: mobilex1122.en@gmail.com
+  display_name: admin
+  first_name: ''
+  last_name: ''
+permalink: "/blog/devlog/web-log-03/"
+---
+<p><!-- wp:paragraph --></p>
+<p>Hey! I'm back with yet an another web log! Today we will talk about images and videos.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>You might have noticed but I added home video and thumbnails to posts. It was not as easy as it might seem. Wordpress has very inconvenient path system, you need to follow specific path system for this system to work. That's why you got this function:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:code --></p>
+<pre class="wp-block-code"><code>get_template_directory_uri()</code></pre>
+<p><!-- /wp:code --></p>
+<p><!-- wp:paragraph --></p>
+<p>Look's nice right? But if you look at my code you realize that this is quite tedious to make this work.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:code --></p>
+<pre class="wp-block-code"><code>&lt;video
+  src="&lt;?= get_template_directory_uri().'/assets/video/home-vid.mp4' ?&gt;"
+  poster="
+   &lt;?= get_template_directory_uri().'/assets/video/home-placeholder.webp' ?&gt;
+  "
+  muted loop autoplay
+&gt;&lt;/video&gt;</code></pre>
+<p><!-- /wp:code --></p>
+<p><!-- wp:paragraph --></p>
+<p>This code is used on home page for the main video.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>But that's enough of complaining now let's see what's now finished.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Progress:</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Finished:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul><!-- wp:list-item --></p>
+<li>Some elements (buttons, calendar)</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Single page rendering</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Blog and blog search functions</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>Next Goal:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul><!-- wp:list-item --></p>
+<li>Dropdown menus in navbar</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>nicer gallery</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>nicer author pages.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
