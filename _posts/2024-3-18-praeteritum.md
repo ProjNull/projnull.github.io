@@ -1,12 +1,12 @@
 ---
 layout: post
-title: HelloWorld
-password: 123
+title: Praeteritum Devlog 0
 type: post
+published: false
 categories:
 - Dev Log
 tags: []
 author: hyscript
 ---
-# TEST
-testing 123
+# Praeteritum Devlog
+
