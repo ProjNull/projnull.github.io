@@ -6,7 +6,7 @@ order: 4
 
 ## Our Team
 
-### HyScript
+### HyScript7
 <!-- Write somethin about your self -->
 [Github](https://github.com/HyScript7)
 
