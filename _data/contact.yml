@@ -10,6 +10,10 @@
 #  icon: "fas fa-envelope"
 #  noblank: true # open link in current tab
 
+- type: youtube
+  icon: 'fab fa-youtube'   # icons powered by <https://fontawesome.com/>
+  url:  'https://www.youtube.com/@ProjNULL'   
+
 - type: rss
   icon: "fas fa-rss"
   noblank: true
